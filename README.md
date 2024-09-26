@@ -40,7 +40,7 @@ _A sleek and intuitive interface to find your next color inspiration._
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/color-scheme-generator.git
+   git clone https://github.com/iamsaketprasad/color-scheme-generator.git
    ```
 
 2. Navigate into the project folder:
