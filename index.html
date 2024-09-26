@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <title>Color Scheme Generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="color-scheme-header">
+                <input onchange="colorPicker(this.value)" class="color-picker" id="color-picker" type="color" value="#F55A5A">
+                <select class="color-scheme-mode" id="color-scheme-mode">
+                    <option value="monochrome" selected>Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button class="get-color-scheme" id="get-color-scheme">Get color scheme</button>
+            </div>
+            <div class="color" id="color"></div>
+            <div class="hex-color-value" id="hex-color-value"></div>
+            
+        </div> <!-- Main closed -->
+        
+        <script src="index.js"></script>
+    </body>
+</html>
