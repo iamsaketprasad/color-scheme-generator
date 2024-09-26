@@ -1,7 +1,3 @@
-Here's a beautiful, creative, and attractive README for your **Color Scheme Generator** project:
-
----
-
 # 🎨 Color Scheme Generator
 
 Welcome to the **Color Scheme Generator**! This project allows you to instantly generate stunning color palettes that you can use in your design projects. With a click of a button, the app fetches vibrant color schemes using a powerful Color API and presents them to you in a visually engaging layout.
